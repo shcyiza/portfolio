@@ -1,5 +1,6 @@
 @charset 'UTF-8';
 @import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Mono|Poiret+One');
 
 
 /*
@@ -52,6 +53,16 @@
     color: #363636;
   }
 
+  .acsented {
+      font-family: 'Poiret One', cursive;
+      font-weight: bold;
+  }
+
+  .portfolio {
+      font-family: 'Ubuntu Mono', cursive;
+      color: white;
+  }
+
   blockquote
   {
     border-left: solid 0.5em #ddd;
@@ -93,9 +104,12 @@
 
   p, ul, ol, dl, table, blockquote, form
   {
-    margin-bottom: 2em;
   }
 
+    #me header > p {
+        font-family: 'Ubuntu', cursive;
+        margin-bottom: 2em;
+    }
   /* Table */
 
     table

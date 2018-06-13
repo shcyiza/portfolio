@@ -1,5 +1,3 @@
-### Anna Petry
+### Patrick Cyiza's online portfolio
 
-Simple portfolio site integrating an HTML5UP template with Ruby on Rails
-
-##### See it live [HERE](http://www.annapetry.com)
+Simple portfolio forked from [Anne Petry's repo](https://github.com/annapetry/Portfolio-Rails)
