@@ -15,8 +15,7 @@
 
   body
   {
-    background-image:      url('overlay.png'),    url('bg.jpg');
-    background-repeat:      repeat,              no-repeat;
+      background: linear-gradient(#000099, 	#ffb366);
     background-size:      auto,              100% 100%;
   }
 
@@ -219,8 +218,8 @@
         margin-bottom: 0;
       }
 
-    header
-    {
+    header {
+        padding: 50px;
     }
 
       header > p
@@ -228,6 +227,16 @@
         color: #aaa;
       }
 
+
+    ul.techstack li {
+        display: table-cell;
+        margin: 5px;
+        padding: 10px;
+        vertical-align: top;
+        position:relative;
+        font-size: 20px;
+        color: white;
+    };
   /* Image */
 
     .image
@@ -505,3 +514,4 @@
         {
           display: none;
         }
+
