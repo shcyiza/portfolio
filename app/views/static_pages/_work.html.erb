@@ -12,35 +12,28 @@
         href="http://www.pintrospective.com"
         class="image fit"
         target="_blank">
-        <img src="../assets/the-lovers.jpg" alt="">
+        <img src="../assets/staffit.png" alt="">
       </a>
     </div>
     <div class="description-div">
-      <h3>Pintrospective</h3>
-      <a href="http://www.pintrospective.com" target="_blank">
-        Live
-      </a>
-       ・
-      <a
-        href="https://github.com/annapetry/pintrospective"
-        target="_blank">
-        Github
+      <h3>StafFit</h3>
+      <a href="https://www.staf-fit.com" target="_blank">
+        <i class="fa fa-eye"></i> Live
       </a>
       <p class="description">
-        A Pinterest clone for visual artists,
-        built with Ruby on Rails & Backbone.js
+        A CRM for personal trainer with it's own unique spin.
+        Buit with Rails, it's handles the API and the content managment.
+        (still heavily in development)
       </p>
       <ul>
         <li>
-          ▹ Simultaneously creates & updates User model and polymorphic Image
-          model using nested attributes & wrapped parameters.
+          ▹ Focus on content managment and custom website creation for the moment.
         </li>
         <li>
-          ▹ Enjoys snappy navigation on the index view, thanks to the relentless hunting down of n+1 queries
+          ▹ It's a Rails API to serve multiple websites such as <a href="https://www.kongocoaching.be" target="_blank">KongoCoaching</a>
         </li>
         <li>
-          ▹ Consumes a RESTful Rails API which also includes
-          custom routes.
+          ▹ Almost all model are polymorphic, heavy focus on good proctices and DRY coding.
         </li>
       </ul>
     </div>
@@ -52,34 +45,29 @@
         href="http://chapp-room.herokuapp.com/"
         class="image fit" id="chApp"
         target="_blank">
-        <img src="../assets/ChApp-Room.jpg" alt="">
+        <img src="../assets/kongoteam.png" alt="">
       </a>
     </div>
     <div class="description-div alt-description">
-      <h3>ChApp Room</h3>
+      <h3>Kongo Coaching</h3>
       <a
-        href="http://chapp-room.herokuapp.com/"
+        href="https://www.kongocoaching.be"
         target="_blank">
-        Live
-      </a>
-       ・
-      <a
-        href="https://github.com/annapetry/ChApp"
-        target="_blank">
-        Github
+        <i class="fa fa-eye"></i> Live
       </a>
       <p class="description">
-        A fun little chat app using Node.js.
+        A web storefront for a coaches consuming <a href="https://www.staf-fit.com" target="_blank">StafFit</a> API's.
+      </a>
       </p>
       <ul>
         <li>
-          ▹ Uses Socket.IO to add cross-browser support to websockets.
+          ▹ One page app built with <b>vue.js</b> using <b>vuex</b> and <b>axios</b>
         </li>
         <li>
-          ▹ Uses node-static to serve static files.
+          ▹ Heavy use of mixins to separate the logic from the styles, so its easily costomisable. Therefore, similar website can be made in less then a day.
         </li>
         <li>
-          ▹ Allows guests to change their names and switch rooms.
+          ▹ Offers multiple ways for the clients to contact the coaches, via the platform <a href="https://www.staf-fit.com" target="_blank">StafFit</a>.
         </li>
       </ul>
     </div>
@@ -91,37 +79,27 @@
         href="http://do-tha-dang-thang.herokuapp.com"
         class="image fit"
         target="_blank">
-        <img src="../assets/dang-thang.jpg" alt="">
+        <img src="../assets/monoko.png" alt="">
       </a>
     </div>
     <div class="description-div">
-      <h3>Do Tha Dang Thang</h3>
+      <h3>Monoko</h3>
       <a
-        href="http://do-tha-dang-thang.herokuapp.com"
+        href="http://http://www.monoko.org"
         target="_blank">
-        Live
-      </a>
-       ・
-      <a
-        href="https://github.com/annapetry/TrelloClone"
-        target="_blank">
-        Github
+        <i class="fa fa-eye"></i> Live
       </a>
       <p class="description">
-        A simple Trello clone,
-        built with Ruby on Rails & Backbone.js
+        A lingala dictionnary,
+        built with Ruby on Rails.
       </p>
       <ul>
         <li>
-          ▹ Uses jQueryUI’s sortable method to enable sorting of
-          lists & cards, which persist to the DB.
+          ▹ Uses <a href="https://github.com/Casecommons/pg_search" target="_blank">pg_search</a> gem, for word search.
         </li>
         <li>
-          ▹ Extends Backbone’s View to support efficient rendering of
-          composite views, allowing cards to be rendered within lists.
-        </li>
-        <li>
-          ▹ Consumes a RESTful Rails API.
+          ▹ My work was more involve in the efficient CRUD management of thosands of words, definitions and translations.
+          Therefore, I built a system user friendly system to CRUD various ressources with xls files import/export.
         </li>
       </ul>
     </div>
@@ -133,34 +111,27 @@
         href="http://hashtag-battleground.herokuapp.com/"
         class="image fit" id="htbg"
         target="_blank">
-        <img src="../assets/HTBG.jpg" alt="">
+        <img src="../assets/wapimail.png" alt="">
       </a>
     </div>
     <div class="description-div alt-description">
-      <h3>Hashtag Battleground</h3>
-      <a
-        href="http://hashtag-battleground.herokuapp.com/"
-        target="_blank">
-        Live
-      </a>
-       ・
-      <a
-        href="https://github.com/annapetry/HashtagBattleNode"
-        target="_blank">
-        Github
-      </a>
+      <h3>Wapi mail (still in pre-alfa)</h3>
+
       <p class="description">
-        A fun little Twitter Hashtag Battle app using Node.js.
+        Create, edit and send your app's transaction mails. Nothing more.
       </p>
       <ul>
         <li>
-          ▹ Uses Socket.IO to maintain connection to Twitter API to access streaming tweets.
+          ▹ Uses rails for backend and the handle of API request. Vue.js for the front-end to live preview your mail.
         </li>
         <li>
-          ▹ Instantly updates counters to reflect increasing number of times tweets with the specified hashtags are tweeted.
+          ▹ The goal is to not code and configure transaction emails for each of your apps and new projects. I'll do it once so you can use it for each of your apps.
         </li>
         <li>
-          ▹ Restricts Users to one vote per contest. No cheating!
+          ▹ Your transactions mail are just one API request away.
+        </li>
+        <li>
+          ▹ Special tools for developpers will be created.
         </li>
       </ul>
     </div>

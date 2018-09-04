@@ -8,12 +8,6 @@
 /* Basic                                                                         */
 /*********************************************************************************/
 
-	body
-	{
-		background-image: url('../images/bg.jpg');
-		background-size: cover;
-		-ms-behavior: url('css/ie/backgroundsize.min.htc');
-	}
 
 	/* Section/Article */
 
