@@ -14,6 +14,7 @@ gem 'mail_form'
 gem 'newrelic_rpm'
 gem 'figaro'
 gem 'thin'
+gem "font-awesome-rails"
 
 
 group :development do
